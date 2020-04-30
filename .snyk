@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@google-cloud/vision > async > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > google-gax > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > google-gax > grpc > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > async > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2020-04-30T22:52:58.418Z'
